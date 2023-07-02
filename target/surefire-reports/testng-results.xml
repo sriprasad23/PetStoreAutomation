@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-02T15:38:03 IST" name="PetStoreSuite" finished-at="2023-07-02T15:38:18 IST" duration-ms="14804">
+    <groups>
+    </groups>
+    <test started-at="2023-07-02T15:38:03 IST" name="PetStoreTest" finished-at="2023-07-02T15:38:18 IST" duration-ms="14804">
+      <class name="api.test.UserTests_By_Using_PropertiesFile">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests_By_Using_PropertiesFile@7193666c]" started-at="2023-07-02T15:38:13 IST" name="setup" finished-at="2023-07-02T15:38:13 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests_By_Using_PropertiesFile@7193666c]" started-at="2023-07-02T15:38:13 IST" name="testPostUser" finished-at="2023-07-02T15:38:14 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests_By_Using_PropertiesFile@7193666c]" started-at="2023-07-02T15:38:14 IST" name="testGetUserByName" finished-at="2023-07-02T15:38:15 IST" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests_By_Using_PropertiesFile@7193666c]" started-at="2023-07-02T15:38:15 IST" name="testUpdateUserByName" finished-at="2023-07-02T15:38:17 IST" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests_By_Using_PropertiesFile@7193666c]" started-at="2023-07-02T15:38:17 IST" name="testDeleteUserByName" finished-at="2023-07-02T15:38:18 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests_By_Using_PropertiesFile -->
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests@291ae]" started-at="2023-07-02T15:38:04 IST" name="setup" finished-at="2023-07-02T15:38:05 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@291ae]" started-at="2023-07-02T15:38:05 IST" name="testPostUser" finished-at="2023-07-02T15:38:08 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests@291ae]" started-at="2023-07-02T15:38:08 IST" name="testGetUserByName" finished-at="2023-07-02T15:38:09 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests@291ae]" started-at="2023-07-02T15:38:09 IST" name="testUpdateUserByName" finished-at="2023-07-02T15:38:11 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests@291ae]" started-at="2023-07-02T15:38:11 IST" name="testDeleteUserByName" finished-at="2023-07-02T15:38:13 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- PetStoreTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>
