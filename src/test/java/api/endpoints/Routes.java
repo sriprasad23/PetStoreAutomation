@@ -15,17 +15,17 @@ package api.endpoints;
 
 public class Routes {
 
-	public static String base_url = "https://petstore.swagger.io/v2";
+	public static String base_url = "https://petstore.swagger.io/v2";  // acceess every where in the project
 	
 	// User Model
-	
-	public static String post_url = base_url+"/user"; // concatinate previous and add remaining
+	// concatineting base ul + End points  it will combinley get as as url
+	public static String post_url = base_url+"/user"; // concatinate previous and add remaining 
 	public static String get_url = base_url+"/user/{username}";
 	public static String update_url = base_url+"/user/{username}";
 	public static String delete_url = base_url+"/user/{username}";
 	
-	// Store Model 
-		//all urls for Store model
-	// Pet Model 
-	//all urls for Pet model
+	// Store Model = base url
+	//all urls for Store model= base + endpoints
+	// Pet Model = base url
+	//all urls for Pet model = base + endpoints
 }

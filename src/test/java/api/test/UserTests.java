@@ -20,11 +20,11 @@ public class UserTests {
 	
 	
 	@BeforeClass
-	public void setup()
+	public void setup()           // By using this generate data by using Faker library
 	{
 		
-		faker= new Faker();
-		userPayload=new User();
+		faker= new Faker();			// Faker object
+		userPayload=new User();		  // user object
 		
 		userPayload.setId(faker.idNumber().hashCode());
 		userPayload.setUsername(faker.name().username());

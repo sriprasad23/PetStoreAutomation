@@ -15,13 +15,13 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 	public class ExtentReportManager implements ITestListener
 	{
-		public ExtentSparkReporter sparkReporter;
-		public ExtentReports extent;
-		public ExtentTest test;
+		public ExtentSparkReporter sparkReporter; // UI of report 
+		public ExtentReports extent;				//common data like name os date ...
+		public ExtentTest test;						// creating entries in the report
 		
 		String repName;
 		
-		public void onStart(ITestContext testContext)
+		public void onStart(ITestContext testContext) // before starting all the class
 		{
 			
 			// Look and Feel
@@ -32,7 +32,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 			
 			sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject"); // Title of the Project
 			sparkReporter.config().setReportName("Pet Store Users API");  // Name of the report
-			sparkReporter.config().setTheme(Theme.DARK);
+			sparkReporter.config().setTheme(Theme.STANDARD);
 			
 			// General Information about
 			

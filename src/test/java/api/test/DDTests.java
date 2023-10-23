@@ -15,11 +15,11 @@ public class DDTests {
 	@Test(priority=1,dataProvider="Data", dataProviderClass=DataProviders.class)
 	public void testPostuser(String userID, String userName, String fname, String lname, String useremail, String pwd, String ph)
 	{
-		// Using POJO Class we have to create below
+		// Using POJO Class we have to create below instead of genrating data from Faker we use data provider 
 		
-		User userPayload = new User();
+		User userPayload = new User();   // object for payload
 		
-		userPayload.setId(Integer.parseInt(userID));
+		userPayload.setId(Integer.parseInt(userID));  // creating the data
 		userPayload.setUsername(userName);
 		userPayload.setFirstname(fname);
 		userPayload.setLastname(lname);
@@ -27,7 +27,7 @@ public class DDTests {
 		userPayload.setPassword(pwd);
 		userPayload.setPhone(ph);
 		
-		Response response = UserEndPoints.createUser(userPayload);	
+		Response response = UserEndPoints.createUser(userPayload);	// Post the data
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
@@ -39,11 +39,6 @@ public class DDTests {
 		
 		Response response=UserEndPoints.deleteUser(userName);
 		Assert.assertEquals(response.getStatusCode(), 200);
-		
-		
-		
-		
-		
 		
 	}
 }

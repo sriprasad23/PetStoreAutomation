@@ -13,18 +13,19 @@ public class UserEndPoints {
 	
 
 	public static Response createUser(User payload)	
-	{
-     Response response = given()
-    		 		.contentType(ContentType.JSON)
-    		 		.accept(ContentType.JSON)
-    		 		.body(payload)
+	{ 
+     Response response = given()  					// response 
+    		 		.contentType(ContentType.JSON) // type of content body
+    		 		.accept(ContentType.JSON)  // accept the content type
+    		 		.body(payload)				// payload 
     		 .when()
-    		 		.post(Routes.post_url);
+    		 		.post(Routes.post_url);    // from routes class pass the post url 
 		
-     return response;
+     return response;							// response return to the response variable
 		
 	}
 	
+	// To Read 
 	public static Response readUser(String userName)	
 	{
      Response response = given()
@@ -36,6 +37,7 @@ public class UserEndPoints {
 		
 	}
 	
+	// Update the user 
 	public static Response updateUser(String userName, User payload)	
 	{
      Response response = given()

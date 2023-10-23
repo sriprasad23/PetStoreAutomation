@@ -25,7 +25,7 @@ public class XLUtility {
 	public CellStyle style;
 	String path;
 	
-	public XLUtility(String path)
+	public XLUtility(String path)    // Constructor to send the path of the excel
 	{
 		this.path=path;
 	}
